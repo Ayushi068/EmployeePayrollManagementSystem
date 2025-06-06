@@ -16,4 +16,10 @@ public class ExceptionResponse {
     private String error;
     private String path;
 
+    public ExceptionResponse(String timestamp, String status, String error, String path) {
+        this.timestamp = timestamp;
+        this.status = status;
+        this.error =error;
+        this.path = path;
+    }
 }
